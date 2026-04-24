@@ -1,0 +1,29 @@
+{
+  "name": "locadora-filmes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luiz-Carlos-Borges/Locadora-Filmes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Luiz-Carlos-Borges/Locadora-Filmes/issues"
+  },
+  "homepage": "https://github.com/Luiz-Carlos-Borges/Locadora-Filmes#readme",
+  "dependencies": {
+    "express": "5.2.1",
+    "knex": "3.2.9",
+    "sqlite3": "6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.14"
+  }
+}
