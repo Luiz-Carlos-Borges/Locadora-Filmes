@@ -9,7 +9,7 @@ meta:
 collection:
   - name: locadora
     meta:
-      id: fld_832ee8e0f3024d9da8c267a195330013
+      id: fld_3d43510db66d4a33834d186e526902e5
       created: 1777595204954
       modified: 1777595204954
       sortKey: -1777595204954
@@ -18,7 +18,7 @@ collection:
       - url: localhost:3000/test
         name: Teste de conexão
         meta:
-          id: req_5f1b00069f764e68a36f283a4048f931
+          id: req_ecc40f5f42594be6aabff17ed07a26f2
           created: 1777595245069
           modified: 1777595442658
           isPrivate: false
@@ -41,7 +41,61 @@ collection:
       - url: localhost:3000/test/tables
         name: LIsta tabelas
         meta:
-          id: req_802796e35d66466a8cfbc988fa46f40e
+          id: req_4d2b22721d5943ebbfe6b0c812c76390
+          created: 1778202415318
+          modified: 1778202497496
+          isPrivate: false
+          description: ""
+          sortKey: -1777595245019
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/12.1.0
+            description: ""
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+  - name: locadora
+    meta:
+      id: fld_b611fa34e3164a4994ace5836842a301
+      created: 1777595204954
+      modified: 1777595204954
+      sortKey: -1777595204954
+      description: ""
+    children:
+      - url: localhost:3000/test
+        name: Teste de conexão
+        meta:
+          id: req_cdeb037d3e124e498baa7e0bd2f0dbac
+          created: 1777595245069
+          modified: 1777595442658
+          isPrivate: false
+          description: ""
+          sortKey: -1777595245069
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/12.1.0
+            description: ""
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: localhost:3000/test/tables
+        name: LIsta tabelas
+        meta:
+          id: req_0e6f89c465054d4491ffad09b3b55863
           created: 1778202415318
           modified: 1778202497496
           isPrivate: false
@@ -65,12 +119,12 @@ cookieJar:
   name: Default Jar
   meta:
     id: jar_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1778192516483
-    modified: 1778192516483
+    created: 1778795936868
+    modified: 1778795936868
 environments:
   name: Base Environment
   meta:
     id: env_99d30891da4bdcebc63947a8fc17f076de878684
-    created: 1778192516480
-    modified: 1778192516480
+    created: 1778795936864
+    modified: 1778795936864
     isPrivate: false

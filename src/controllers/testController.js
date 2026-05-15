@@ -4,7 +4,7 @@ const  testConection =  async (req, res) => {
     try{
     await connection.raw("SELECT 1+1 as result")
 
-        return res.json({message:"Banco conectado com sucesso ( ͡° ͜ʖ ͡°)"})
+        return res.json({message:"Banco conectado com sucesso!!!"})
     } catch(error) {
         return res.status(500).json({message: "Erro ao conectar ao banco ಠ_ಠ", 
         error:error
@@ -14,7 +14,7 @@ const  testConection =  async (req, res) => {
 
 const listTables = async (req, res) => {
     try {
-        const tables = await connection.raw(
+        const tables = await connection.raw(   
             "SELECT name FROM sqlite_master WHERE type = 'table'"
         )
 
