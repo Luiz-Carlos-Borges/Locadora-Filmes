@@ -17,5 +17,5 @@ exports.down = function(knex) {
     return knex.schema.table("filmes", (table) => {
         table.integer("genero_id")
     })
-  
+
 };
