@@ -1,6 +1,6 @@
 const FilmeModel = require("../models/FilmeModel")
 
-const FilmeControler = {
+const FilmeController = {
     async getAllFilmes(req,res) {
         const filmes = await FilmeModel.findAll()
 
@@ -13,7 +13,7 @@ const FilmeControler = {
             generos
         } = req.body
 
-        const filmeId = await FilemModel.create(
+        const filmeId = await FilmeModel.create(
             {
                 titulo,
                 diretorId
@@ -24,4 +24,4 @@ const FilmeControler = {
         return res.status(201).json({ id: filmeId})
     }
 }
-module.export = FilmeController
+module.exports = FilmeController
